@@ -1,15 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 11 11:28:35 2022
-
-@author: ryangarrett
-"""
 
 import os
 import subprocess
 import argparse
-import time
 
 parser = argparse.ArgumentParser(description='Stop.Start.Restart Incorta Services  Assumes $INCORTA_HOME is set Usage: stop_all_incorta_services.py --stop')
 parser.add_argument('-s','--stop', action="store_true", help='Stop All Services')
