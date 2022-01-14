@@ -9,6 +9,7 @@ This script will stop all running incorta services.
 
 vi ~/.baschrc
 export INCORTA_HOME=/home/incorta/IncortaAnalytics/
+
 source ~/.baschrc
 
 #Windows usage
