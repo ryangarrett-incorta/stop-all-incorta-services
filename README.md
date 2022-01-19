@@ -12,5 +12,7 @@ export INCORTA_HOME=/home/incorta/IncortaAnalytics/
 
 source ~/.baschrc
 
+usage ./stop_all_incorta_services.py -r
+
 #Windows usage
 This script does not run in windows grasshopper
